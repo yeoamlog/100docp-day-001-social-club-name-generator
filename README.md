@@ -1,34 +1,43 @@
-# Social Club Name Generator
+# Day 001 - Social Club Name Generator
 
+## Overview
 Python CLI project converted to a browser demo that feels like a terminal app.
+Generate one random social club/team name based on city, vibe, and hobby inputs.
 
-## What is included
-- `main.py`: original CLI-style generator (Python).
-- `index.html`, `style.css`, `app.js`: web demo for GitHub Pages.
+## Requirements
+- Input: city, vibe, hobby
+- Output: one recommended club name
+- Core Features:
+  - CLI flow with `input()` in Python
+  - Terminal-style web demo with step-by-step prompts (by Codex)
+  - Random recommendation from predefined naming patterns
 
-## Run the Python version
+## Tech Stack
+- Python
+- HTML, CSS, JavaScript (by Codex)
+
+## Run Locally
+
+### Python
 ```bash
-cd social-club-name-generator
 python3 main.py
 ```
 
-## Run the web demo locally
+### Web
 ```bash
-cd social-club-name-generator
 python3 -m http.server 8000
+# Open http://localhost:8000
 ```
-
-Then open `http://localhost:8000`.
 
 ## Publish as a public GitHub repo
 Recommended: make this folder its own repo root.
 
 ```bash
-cd social-club-name-generator
+cd 100docp-day-001-social-club-name-generator
 git init
 git add .
-git commit -m "Initial Social Club Name Generator (Python + Web Demo)"
-gh repo create social-club-name-generator --public --source=. --remote=origin --push
+git commit -m "Initialize Social Club Name Generator (Python + Web Demo)"
+gh repo create 100docp-day-001-social-club-name-generator --public --source=. --remote=origin --push
 ```
 
 ## Enable GitHub Pages
@@ -39,6 +48,35 @@ gh repo create social-club-name-generator --public --source=. --remote=origin --
    - `Branch`: `main` and `/ (root)`
 4. Save, then wait about 1-2 minutes.
 
-Your demo URL will be:
+## Live Demo
+- URL: `https://<your-username>.github.io/100docp-day-001-social-club-name-generator/`
 
-`https://<your-github-username>.github.io/social-club-name-generator/`
+## Repository
+- URL: `https://github.com/<your-username>/100docp-day-001-social-club-name-generator`
+
+## Project Structure
+```text
+.
+├── README.md
+├── main.py
+├── index.html
+├── style.css
+└── app.js
+```
+
+## What I Learned
+- How to convert a Python CLI prompt flow into browser interaction logic.
+- How to exploit Codex to mimic terminal UX with HTML/CSS/JS.
+- How to structure one-day project repos for repeatable shipping.
+
+## Improvements (Next)
+- Add seed-based deterministic mode for repeatable results.
+- Add copy-to-clipboard and shareable result URL.
+
+## Screenshot
+![project screenshot](./screenshots/main.png)
+
+## Reference
+- Source curriculum: [App Brewery - 100 Days of Python](https://github.com/appbrewery/100-days-of-python)
+- Day: <python-day1-demo>
+- Note: Implemented independently for learning and portfolio purposes.
