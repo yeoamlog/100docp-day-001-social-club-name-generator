@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Social Club Name Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">Day 1 Project Conversion</p>
+      <h1>Social Club Name Generator</h1>
+      <p class="subtitle">Terminal-style web demo version of your Python input project.</p>
+    </section>
+
+    <section class="terminal-shell" aria-label="Terminal demo">
+      <div class="terminal-topbar">
+        <span class="dot red" aria-hidden="true"></span>
+        <span class="dot amber" aria-hidden="true"></span>
+        <span class="dot green" aria-hidden="true"></span>
+        <p class="title">social-club-generator</p>
+      </div>
+
+      <div id="output" class="terminal-output" aria-live="polite"></div>
+
+      <form id="prompt-form" class="terminal-input-row">
+        <label id="prompt-label" for="user-input"></label>
+        <input id="user-input" name="user-input" autocomplete="off" required>
+        <button type="submit">Enter</button>
+      </form>
+
+      <div class="actions">
+        <button id="restart-btn" type="button">Start New Run</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
