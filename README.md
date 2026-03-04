@@ -74,7 +74,7 @@ gh repo create 100docp-day-001-social-club-name-generator --public --source=. --
 - Add copy-to-clipboard and shareable result URL.
 
 ## Screenshot
-![project screenshot](./screenshots/main.png)
+![project screenshot](./screenshots/main.mov)
 
 ## Reference
 - Source curriculum: [App Brewery - 100 Days of Python](https://github.com/appbrewery/100-days-of-python)
