@@ -57,11 +57,14 @@ gh repo create 100docp-day-001-social-club-name-generator --public --source=. --
 ## Project Structure
 ```text
 .
+├── LICENSE
 ├── README.md
 ├── main.py
 ├── index.html
 ├── style.css
-└── app.js
+├── app.js
+└── screenshots
+    └── main.png
 ```
 
 ## What I Learned
